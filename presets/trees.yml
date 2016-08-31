@@ -1,0 +1,57 @@
+name:
+  en: Remarkable trees preset
+  fr: Preset Arbres remarquables
+description:
+  en: A profile you need to contribute to your favourite tree amenities.
+  fr: Un profil dont vous aurez besoin pour contribuer sur des données de type arbre.
+offlineArea:
+  - [-1.921802,47.101919,-1.358542,47.101919]
+  - [-1.358542,47.101919,-1.358542,47.353296]
+  - [-1.358542,47.353296,-1.921802 47.353296]
+image: 'http://www.jardins.nantes.fr/N/Arbre/Remarquable/Photo/1136.jpg' 
+data:
+  - name: amenity=natural
+    url: 'https://wiki.openstreetmap.org/wiki/Tag:natural%3Dtree'
+    label:
+      en: Remarkable tree
+      fr: Arbre remarquable
+    description:
+      en: Remarkable or significant single tree.
+      fr: Arbre remarquable, souvent isolé et digne d'intérêt.
+    keywords:
+      en:
+        - tree
+        - remarkable tree
+        - significant tree
+      fr:
+        - Arbre
+        - Arbre remarquable
+        - Arbre digne d'intérêt
+    tags:
+      - key: amenity
+        value: natural
+        type: CONSTANT
+      - key: natural
+        value: tree
+        type: CONSTANT
+      - key: species
+        type: SINGLE_CHOICE
+        values:
+          - Abies
+		      - Acer
+          - Carpinus
+		      - Cedrus
+          - Cercis
+		      - Fagus
+		      - Magnolia
+		      - Paulownia
+		      - Picea
+		      - Pinus
+		      - Platanus
+    		  - Populus
+		      - Prunus
+		      - Quercus
+		      - Sorbus
+		      - Ulmus
+      - key: start_date
+        type: NUMBER
